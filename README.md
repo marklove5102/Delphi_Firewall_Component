@@ -204,6 +204,6 @@ end;
 
 ## Author
 
-BitmasterXor  
+**Made By BitmasterXor And Friends With ❤️ for the Delphi Community**
 Malware Researcher / Delphi Developer  
 GitHub: https://github.com/BitmasterXor
