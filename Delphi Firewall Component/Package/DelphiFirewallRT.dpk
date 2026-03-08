@@ -1,0 +1,43 @@
+package DelphiFirewallRT;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+{$DESCRIPTION 'Delphi Firewall Component - Runtime Package'}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  FW.WFP.API in '..\Source\FW.WFP.API.pas',
+  FW.IpHelper.API in '..\Source\FW.IpHelper.API.pas',
+  FW.Types in '..\Source\FW.Types.pas',
+  FW.Monitor in '..\Source\FW.Monitor.pas',
+  FW.Component in '..\Source\FW.Component.pas';
+
+end.
