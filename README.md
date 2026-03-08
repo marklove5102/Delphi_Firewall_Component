@@ -205,7 +205,7 @@ end;
 ## Author
 
 <p align="center">
-  <strong>Made by BitmasterXor and friends, with love for the Delphi community.</strong>
+  <strong>Made by BitmasterXor, with love for the Delphi community.</strong>
   <br><br>
   Malware Researcher • Delphi Developer
   <br><br>
