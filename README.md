@@ -7,6 +7,19 @@ Professional Windows firewall component suite for Delphi VCL, powered by the Win
 ![Platform](https://img.shields.io/badge/Platform-Windows%20WFP-1f6feb?style=for-the-badge)
 ![Privileges](https://img.shields.io/badge/Requires-Administrator-important?style=for-the-badge)
 
+<p align="center">
+  <img src="FirewallPreview.png" alt="Firewall Preview" width="920">
+</p>
+
+<p align="center"><strong>Component & Runtime Preview</strong></p>
+<p align="center">
+  <img src="FirewallComponent.png" alt="Firewall Component" width="48%">
+  <img src="Events.png" alt="Events" width="48%">
+</p>
+<p align="center">
+  <img src="Properties.png" alt="Properties" width="48%">
+</p>
+
 ---
 
 ## Overview
@@ -182,4 +195,3 @@ end;
 BitmasterXor  
 Malware Researcher / Delphi Developer  
 GitHub: https://github.com/BitmasterXor
-
